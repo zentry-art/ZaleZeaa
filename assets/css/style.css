@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
-
-*/
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -225,9 +217,9 @@ p {
 
 .main-button a {
   font-size: 14px;
-  color: #e75e8d;
-  background-color: #ffffff;
-  border: 1px solid #ec6090;
+  color: #ffffff;
+  background-color: #e75e8d;
+  border: 1px solid #e75e8d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -240,8 +232,8 @@ p {
 }
 
 .main-button a:hover {
-  background-color: #e75e8d;
-  color: #fff;
+  background-color: #fff;
+  color: #e75e8d;
 }
 
 .main-border-button a {
