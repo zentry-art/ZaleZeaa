@@ -225,8 +225,9 @@ p {
 
 .main-button a {
   font-size: 14px;
-  color: #fff;
+  color: #ffffff;
   background-color: #e75e8d;
+  border: 1px solid #e75e8d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -260,9 +261,9 @@ p {
 }
 
 .main-border-button a:hover {
-  border-color: #fff;
-  background-color: #fff;
-  color: #e75e8d;
+  border-color: #ec6090;
+  background-color: #ec6090;
+  color: #fff;
 }
 
 .border-no-active a {
@@ -400,7 +401,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #1f2122 !important;
   height: 70px !important;
   position: fixed !important;
   top: 0 !important;
@@ -514,7 +515,7 @@ Header Style
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
-  color: #666;
+  color: #cb7171;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -733,8 +734,9 @@ Header Style
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
+  /*hEADER*/
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #1f2122;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -770,12 +772,12 @@ Header Style
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #262121;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: #1f2122;
+    border-bottom: 1px solid #1f2122;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -784,18 +786,18 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #fff !important;
-    color: #1e1e1e !important;
+    background: #1f2122 !important;
+    color: #e75e8d !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #fff !important;
+    background: #1f2122 !important;
     color: #e75e8d !important;
   }
   .header-area .main-nav .nav li:last-child a img {
     display: none;
   }
   .header-area .main-nav .nav li:last-child a:hover {
-    color: #ec6090 !important;
+    color: #ffffff !important;
     background-color: transparent !important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
